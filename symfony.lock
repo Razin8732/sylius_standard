@@ -34,6 +34,19 @@
     "behat/transliterator": {
         "version": "v1.2.0"
     },
+    "bitbag/cms-plugin": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "e3c6714d3910e4a76171a069242fe2a2ceb220af"
+        },
+        "files": [
+            "config/packages/bitbag_cms_plugin.yaml",
+            "config/routes/bitbag_cms_plugin.yaml"
+        ]
+    },
     "clue/stream-filter": {
         "version": "v1.4.0"
     },
@@ -42,9 +55,6 @@
     },
     "coduo/php-to-string": {
         "version": "2.0.1"
-    },
-    "composer/package-versions-deprecated": {
-        "version": "1.11.99.1"
     },
     "dealerdirect/phpcodesniffer-composer-installer": {
         "version": "v0.7.1"
@@ -163,6 +173,18 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.3"
     },
+    "friendsofsymfony/ckeditor-bundle": {
+        "version": "2.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.0",
+            "ref": "f5ad42002183a6881962683e6d84bbb25cdfce5d"
+        },
+        "files": [
+            "config/packages/fos_ckeditor.yaml"
+        ]
+    },
     "friendsofsymfony/rest-bundle": {
         "version": "2.2",
         "recipe": {
@@ -234,6 +256,9 @@
     },
     "lcobucci/jwt": {
         "version": "3.3.2"
+    },
+    "league/csv": {
+        "version": "9.8.0"
     },
     "league/uri": {
         "version": "5.3.0"
