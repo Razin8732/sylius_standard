@@ -23,6 +23,7 @@
 /public/bundles
 /var/
 /vendor/
+/vendor_old/
 ###< symfony/framework-bundle ###
 
 ###> friendsofphp/php-cs-fixer ###
