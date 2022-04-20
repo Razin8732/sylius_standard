@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^7.4",
-        "monsieurbiz/sylius-cms-page-plugin": "^1.0.0-RC.8",
+        "monsieurbiz/sylius-cms-page-plugin": "1.0.x-dev",
         "monsieurbiz/sylius-rich-editor-plugin": "^2.0.9",
         "sylius/sylius": "~1.8.0",
         "symfony/dotenv": "^4.4",
